@@ -1,0 +1,15 @@
+{
+  "name": "fantsubot",
+  "version": "1.0.0",
+  "description": "discord bot to control my clan server",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "eelisrossi",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^13.8.0",
+    "dotenv": "^16.0.1"
+  }
+}
