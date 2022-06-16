@@ -5,12 +5,15 @@
 1. Basic functions:  
 
 > Welcome + add base role
+>
 > Role picker
+>
 > Admin tools (kick, ban, etc)
 
 2. Nice-to-haves:
 
 > Music player
+>
 > Event creation
 
 3. After 1 and 2 are done, brainstorm more ideas, or move to next project
