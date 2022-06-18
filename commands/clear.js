@@ -4,8 +4,10 @@ module.exports = {
     name: 'clear',
     description: "Clear messages!",
     async execute(client, message, args, Discord) {
+        if (!message.member.permissions.has("MANAGE_MESSAGES")) return message.reply("Not authorized to delete messages");
         let amount = args[0];
         if (!amount) return message.reply("please enter the amount of messages you want to clear");
+        if (amount == 'a'  || amount == 'all') amount = 100;
         if (isNaN(amount)) return message.reply("please enter a real number");
 
         if (amount > 100) return message.reply("you cannot delete more than 100 msg at a time");
